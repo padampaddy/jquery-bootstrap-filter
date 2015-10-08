@@ -70,7 +70,7 @@
                       '<div id="portfolio-title" class="panel-heading">'+item.title+'</div>' +
                       '<div class="panel-body"><img style="max-width:100%;padding:5px;max-height:200px;" src="'+item.image+'"/>' + item.description +
                       '</div>' +
-                      '<div class="panel-footer"><a href="'+item.link+'">Check out</a></div>' +
+                      (item.link?'<div class="panel-footer"><a href="'+item.link+'">Check out</a></div>':'') +
                     '</div>' +
                   '</div>');
         },
